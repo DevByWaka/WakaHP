@@ -5,20 +5,28 @@
         <!--<v-img contain height="300" src="@/assets/WO.png" />-->
         <v-parallax height="100%" src='@/assets/Minecraft/features/center.png'>
           <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);">
-            <h1 class="text-h5 font-weight-bold">マイクラ<br>Wakaサーバー</h1>
+            <!--<h1 class="text-h5 font-weight-bold">マイクラ<br>Wakaサーバー</h1>
+            <div class="text-body-5 font-weight-light mb-n1">Waka Game</div>-->
+            <h1 class="font-weight-bold">マイクラ<br>Wakaサーバー</h1>
             <div class="text-body-5 font-weight-light mb-n1">Waka Game</div>
           </div>
         </v-parallax>
         <div class="py-5" />
         <!--参加方法-->
-        <div style="background-color: #333" class="px-5">
+        <div style="background-color: #43A047" class="px-5">
+          <v-row class="d-flex align-center justify-center">
+            <v-col cols="auto">
+              <h1>参加方法</h1>
+            </v-col>
+          </v-row>
           <v-row class="d-flex align-center justify-center">
             <v-col cols="auto"><!--統合版-->
-              <v-btn color="teal-darken-1" min-width="228" rel="noopener noreferrer" size="x-large" variant="flat" href="minecraft:///?addExternalServer=+Waka%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC|waka1210mc.ddns.net:25565">
+              <p>統合版は以下のボタンを押して追加</p>
+              <v-btn color="light-blue-darken-1" min-width="228" rel="noopener noreferrer" size="x-large"  href="minecraft:///?addExternalServer=+Waka%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC|waka1210mc.ddns.net:25565">
                 サーバーを追加する<br>(統合版)
               </v-btn>
               <p>
-                ◆追加されないときは以下のようにしてください◆<br>
+                <h2>◆追加されないときは以下のようにしてください◆</h2><br>
                 <span>
                   サーバー名「好きな名前」
                   <br>
@@ -33,7 +41,7 @@
           <v-row class="d-flex align-center justify-center">
               <v-col cols="auto"><!--Java版-->
                 <p>
-                ◆Java版は以下のようにしてください◆<br>
+                <h2>◆Java版は以下のようにしてください◆</h2><br>
                 <span>
                   サーバー名「好きな名前」
                   <br>

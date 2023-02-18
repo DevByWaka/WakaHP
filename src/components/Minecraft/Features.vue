@@ -1,12 +1,33 @@
 <template>
-    <div class="fill-height">
-      <plugin-card v-bind:plugin_list="list"></plugin-card>
+    <div class=" fill-height">
+      <!--<plugin-card v-bind:features_list="list"></plugin-card>-->
+      <v-row class="mb-6" no-gutters >
+        <v-col v-for="p in list" v-bind:key="p" class="d-flex justify-center">
+          <v-card class="mx-auto; my-5" width="300" variant="outlined">
+            <v-img :src=p.img height="100px" cover>
+            <!--<v-img :src="`/src/assets/features/images/${p.subtitle}.png`" height="100px" cover>-->
+            </v-img>
+
+            <v-card-title>
+              {{ p.title }}
+            </v-card-title>
+
+            <v-card-subtitle>
+              {{ p.subtitle }}
+            </v-card-subtitle>
+
+            <v-card-text>
+              {{ p.text }}
+            </v-card-text>
+          </v-card>
+        </v-col>
+      </v-row>
     </div>
   </template>
   
   <script>
-    import PluginCard from './PluginCard.vue'
-    import wakapng from '@/assets/features/waka.png'
+    import PluginCard from './Card.vue'
+    import wakapng from '@/assets/Minecraft/features/waka.png'
   
     export default {
       components: {
@@ -22,7 +43,7 @@
             {img:wakapng,title:'基本メニュ',subtitle:'waka',text:"[/waka]でメニューを出せるぞ"},
             {img:wakapng,title:'瞬時にテレポート',subtitle:'UltraSetHome',text:'[/sethome 場所の名前]で今いるところを登録して[/homes]から選べる'},
             {img:wakapng,title:'座れるぞ',subtitle:'GSit',text:"[/sit]座る(階段に触れても座れる)\n[/crawl]泳ぐ\n[/spin]回る"},
-            {img:wakapng,title:'死んでも安心？',subtitle:'actp,acfetch',text:'死んだ場所にエンジェルチェストができてインベントリのアイテム入ります。[/actp]でエンジェルチェストにテレポートできます。[/acfetch]で自分のところにエンジェルチェストを呼ぶことができます。[/waka]にもあります。'},
+            {img:wakapng,title:'死んでも安心？',subtitle:'AngelChest',text:'死んだ場所にエンジェルチェストができてインベントリのアイテム入ります。[/actp]でエンジェルチェストにテレポートできます。[/acfetch]で自分のところにエンジェルチェストを呼ぶことができます。[/waka]にもあります。'},
             {img:'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg',title:'お金',subtitle:'money',text:'[/money]で自分のお金表示。[/money pay プレーヤー名 金額]お金を渡す。お金はターミナルで使用できます。'},
             {img:'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg',title:'大事な物はガギをかけよう！チェスト.ドア.ホッパーなど',subtitle:'lwcx',text:'[/lock]して右クリックで自分だけ開ける。[/cpassword パスワード]して右クリックでパスワードを知ってる人が開けれる。[/unlock]して右クリックでロック解除'},
             {img:'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg',title:'オオカミが強化',subtitle:'MyDog',text:'オオカミはモブを倒すとレベルアップして攻撃力が上がります。'},

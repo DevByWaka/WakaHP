@@ -1,7 +1,7 @@
 <template>
   <v-container class="fill-height">
     <v-responsive class="d-flex align-center text-center fill-height">
-      <v-img contain height="300" src="@/assets/WO.png" />
+      <v-img contain height="200px" src="@/assets/WO.png" />
 
       <h1 class="text-h2 font-weight-bold">Waka公式<br>サイト</h1>
       <div class="text-body-5 font-weight-light mb-n1">Waka Game</div>
@@ -45,6 +45,7 @@
 </template>
 
 <script>
+import Logo from '@/assets/WO.png'
 import ReadmeDialog from '../components/DlgReadme.vue'
 import { DiscordIcon,TwitterIcon ,YoutubeIcon,GmailIcon } from 'vue3-simple-icons'
 export default {

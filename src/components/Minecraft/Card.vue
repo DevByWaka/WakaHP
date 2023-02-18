@@ -1,7 +1,8 @@
 <template>
-  <div v-for="p in plugin_list" v-bind:key="p" class="d-flex justify-center">
+  <div v-for="p in features_list" v-bind:key="p" class="d-flex justify-center">
     <v-card class="mx-auto; my-5" width="300" variant="outlined">
       <v-img :src=p.img height="100px" cover>
+      <!--<v-img :src="`/src/assets/features/images/${p.subtitle}.png`" height="100px" cover>-->
       </v-img>
 
       <v-card-title>
@@ -22,7 +23,7 @@
 <script>
   export default {
       props: [
-        'plugin_list'
+        'features_list'
       ],
   }
 </script>

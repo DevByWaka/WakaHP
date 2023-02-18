@@ -44,7 +44,7 @@
             {img:wakapng,title:'瞬時にテレポート',subtitle:'UltraSetHome',text:'[/sethome 場所の名前]で今いるところを登録して[/homes]から選べる'},
             {img:wakapng,title:'座れるぞ',subtitle:'GSit',text:"[/sit]座る(階段に触れても座れる)\n[/crawl]泳ぐ\n[/spin]回る"},
             {img:wakapng,title:'死んでも安心？',subtitle:'AngelChest',text:'死んだ場所にエンジェルチェストができてインベントリのアイテム入ります。[/actp]でエンジェルチェストにテレポートできます。[/acfetch]で自分のところにエンジェルチェストを呼ぶことができます。[/waka]にもあります。'},
-            {img:'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg',title:'お金',subtitle:'money',text:'[/money]で自分のお金表示。[/money pay プレーヤー名 金額]お金を渡す。お金はターミナルで使用できます。'},
+            {img:'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg',title:'お金',subtitle:'money',text:'[/money]で自分のお金表示。[/money pay プレーヤー名 金額]お金を渡す。お金はターミナルで買い物に使います。'},
             {img:'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg',title:'大事な物はガギをかけよう',subtitle:'lwcx',text:'[/lock]してチェスト.ドア.ホッパーなど右クリックで自分だけ開ける。[/cpassword パスワード]して右クリックでパスワードを知ってる人が開けれる。[/unlock]して右クリックでロック解除'},
             {img:'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg',title:'オオカミが強化',subtitle:'MyDog',text:'オオカミはモブを倒すとレベルアップして攻撃力が上がります。'},
             {img:'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg',title:'チェストをアイテムごと持つ',subtitle:'PortableChest',text:'チェストを壊しても、アイテムはそのまま持ち歩けます。'},

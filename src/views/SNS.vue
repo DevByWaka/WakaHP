@@ -9,19 +9,19 @@
         <div class="py-10" />
         <v-row class="d-flex align-center justify-center">
         <v-col cols="auto">
-          <v-btn color="red-darken-1" min-width="228" rel="noopener noreferrer" size="x-large" variant="flat" to="/SNS" >
+          <v-btn color="red-darken-1" min-width="228" rel="noopener noreferrer" size="x-large" variant="flat" href="https://www.youtube.com/channel/UCegAjSOkBjKl8M3Kfv2rEYA" >
             <youtube-icon style="fill:white; margin-right: 15px;" class="custom-class"></youtube-icon>
             ユーチューブ
           </v-btn>
         </v-col>
         <v-col cols="auto">
-          <v-btn color="blue-darken-1" min-width="228" rel="noopener noreferrer" size="x-large" variant="flat" to="/SNS" >
+          <v-btn color="blue-darken-1" min-width="228" rel="noopener noreferrer" size="x-large" variant="flat" href="https://twitter.com/WakaGameCh" >
             <twitter-icon style="fill:white; margin-right: 15px;" class="custom-class"></twitter-icon>
             ツイッター
           </v-btn>
         </v-col>
         <v-col cols="auto">
-          <v-btn color="deep-purple-darken-1" min-width="228" rel="noopener noreferrer" size="x-large" variant="flat" to="/SNS" >
+          <v-btn color="deep-purple-darken-1" min-width="228" rel="noopener noreferrer" size="x-large" variant="flat" href="https://discord.gg/DdnR2nwVUs" >
             <discord-icon style="fill:white; margin-right: 15px;" class="custom-class"></discord-icon>
             ディスコード
           </v-btn>

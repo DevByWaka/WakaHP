@@ -11,7 +11,7 @@
         </v-parallax>
         <v-row class="d-flex align-center justify-center">
         <v-col cols="auto">
-          <v-btn color="red-darken-1" min-width="228" rel="noopener noreferrer" size="x-large" variant="flat" href="minecraft://?addExternalServer=Waka%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC|waka1210mc.ddns.net:25565">
+          <v-btn color="red-darken-1" min-width="228" rel="noopener noreferrer" size="x-large" variant="flat" href="minecraft://?addExternalServer=Wakaサーバー|waka1210mc.ddns.net:25565">
             <v-icon icon="mdi:mdi-checkbox-marked" size="large" start/>
             サーバーを追加する
           </v-btn>

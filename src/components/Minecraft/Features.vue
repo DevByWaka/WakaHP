@@ -6,7 +6,7 @@
   
   <script>
     import PluginCard from './PluginCard.vue'
-  
+    import wakapng from '@/assets/features/waka.png'
   
     export default {
       components: {
@@ -19,10 +19,10 @@
       data: function() {
         return {
           list: [
-            {img:'/src/assets/features/waka.png',title:'基本メニュ',subtitle:'waka',text:"[/waka]でメニューを出せるぞ"},
-            {img:'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg',title:'瞬時にテレポート',subtitle:'UltraSetHome',text:'[/sethome 場所の名前]で今いるところを登録して[/homes]から選べる'},
-            {img:'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg',title:'座れるぞ',subtitle:'GSit',text:"[/sit]座る(階段に触れても座れる)\n[/crawl]泳ぐ\n[/spin]回る"},
-            {img:'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg',title:'死んでも安心？',subtitle:'actp,acfetch',text:'死んだ場所にエンジェルチェストができてインベントリのアイテム入ります。[/actp]でエンジェルチェストにテレポートできます。[/acfetch]で自分のところにエンジェルチェストを呼ぶことができます。[/waka]にもあります。'},
+            {img:wakapng,title:'基本メニュ',subtitle:'waka',text:"[/waka]でメニューを出せるぞ"},
+            {img:wakapng,title:'瞬時にテレポート',subtitle:'UltraSetHome',text:'[/sethome 場所の名前]で今いるところを登録して[/homes]から選べる'},
+            {img:wakapng,title:'座れるぞ',subtitle:'GSit',text:"[/sit]座る(階段に触れても座れる)\n[/crawl]泳ぐ\n[/spin]回る"},
+            {img:wakapng,title:'死んでも安心？',subtitle:'actp,acfetch',text:'死んだ場所にエンジェルチェストができてインベントリのアイテム入ります。[/actp]でエンジェルチェストにテレポートできます。[/acfetch]で自分のところにエンジェルチェストを呼ぶことができます。[/waka]にもあります。'},
             {img:'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg',title:'お金',subtitle:'money',text:'[/money]で自分のお金表示。[/money pay プレーヤー名 金額]お金を渡す。お金はターミナルで使用できます。'},
             {img:'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg',title:'大事な物はガギをかけよう！チェスト.ドア.ホッパーなど',subtitle:'lwcx',text:'[/lock]して右クリックで自分だけ開ける。[/cpassword パスワード]して右クリックでパスワードを知ってる人が開けれる。[/unlock]して右クリックでロック解除'},
             {img:'https://cdn.vuetifyjs.com/images/cards/sunshine.jpg',title:'オオカミが強化',subtitle:'MyDog',text:'オオカミはモブを倒すとレベルアップして攻撃力が上がります。'},

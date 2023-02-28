@@ -2,6 +2,7 @@
     <div class="red darken-1 fill-height" >
       <!--<plugin-card v-bind:features_list="list"></plugin-card>-->
       <v-row class="mb-6" no-gutters >
+        <p>2023/03/01更新</p>
         <v-col v-for="p in list" v-bind:key="p" class="d-flex justify-center">
           <v-card class="mx-auto; my-5" width="300" variant="outlined">
             <v-img :src=p.img height="100px" cover>
